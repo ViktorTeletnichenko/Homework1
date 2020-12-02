@@ -14,5 +14,9 @@ _Height = prompt ('Введите значение высоты цилиндра
 
 _Volume = _AreaCircle * _Height;
 
-document.write ('Обьем цилиндра с площадью основы ' +_AreaCircle +
-', радиусом ' + _Radius + ' и высотой ' + _Height + ' равен: ' + _Volume)
+document.write ('<br> Обьем цилиндра с площадью основы ' + _AreaCircle + ', ')
+document.write ('<br> радиусом ' + _Radius + ' и высотой ' + _Height + ' равен: ')
+document.write ('<br> --------------------')
+document.write ('<br> V = ' + _Volume);
+document.write ('<br> --------------------')
+document.write ('<br> end.')
